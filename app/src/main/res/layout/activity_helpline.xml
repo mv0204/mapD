@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9DFEA"
+    android:fitsSystemWindows="true"
+    tools:context=".HelplineActivity">
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_alignParentStart="true"
+      app:cardElevation="10dp"
+      android:layout_alignParentTop="true"
+   android:backgroundTint="#E5C8E8"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="154dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textp"
+        app:layout_constraintTop_toBottomOf="@+id/textp">
+
+      <TextView
+          android:id="@+id/textp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:text="Police station"
+          android:textColor="@color/black"
+          android:textSize="25dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toTopOf="@+id/calltxt"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.09"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_chainStyle="packed" />
+
+      <TextView
+          android:id="@+id/calltxt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginBottom="6dp"
+          android:text="100"
+          android:textColor="@color/black"
+          android:textSize="27dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/textp"
+          app:layout_constraintHorizontal_bias="0.429"
+          app:layout_constraintStart_toStartOf="@+id/textp"
+          app:layout_constraintTop_toBottomOf="@+id/textp"
+          app:layout_constraintVertical_bias="0.0"></TextView>
+
+      <Button
+          android:id="@+id/callbutton"
+          android:layout_width="95dp"
+          android:layout_height="53dp"
+          android:layout_alignParentEnd="true"
+          android:layout_marginEnd="16dp"
+          android:backgroundTint="#2EA533"
+          android:text="CALL "
+          android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.407" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.cardview.widget.CardView>//police
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      app:cardElevation="10dp"
+      android:backgroundTint="#E5C8E8"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="254dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textp"
+        app:layout_constraintTop_toBottomOf="@+id/textp">
+
+      <TextView
+          android:id="@+id/texte"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:text="Emergency"
+          android:textColor="@color/black"
+          android:textSize="25dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toTopOf="@+id/calltxt1"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.09"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_chainStyle="packed" />
+
+      <TextView
+          android:id="@+id/calltxt1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginBottom="6dp"
+          android:text="112"
+          android:textColor="@color/black"
+          android:textSize="27dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/texte"
+          app:layout_constraintStart_toStartOf="@+id/texte"
+          app:layout_constraintTop_toBottomOf="@+id/texte"></TextView>
+
+      <Button
+          android:id="@+id/callbutton1"
+          android:layout_width="95dp"
+          android:layout_height="53dp"
+          android:layout_alignParentEnd="true"
+          android:layout_marginEnd="16dp"
+          android:backgroundTint="#2EA533"
+          android:text="CALL "
+          android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.407" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.cardview.widget.CardView>//emergency
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      app:cardElevation="10dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:backgroundTint="#E5C8E8"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="354dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textp"
+        app:layout_constraintTop_toBottomOf="@+id/textp">
+
+      <TextView
+          android:id="@+id/texta"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:text="Ambulance"
+          android:textColor="@color/black"
+          android:textSize="25dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toTopOf="@+id/calltxt2"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.09"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_chainStyle="packed" />
+
+      <TextView
+          android:id="@+id/calltxt2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginBottom="6dp"
+          android:text="102"
+          android:textColor="@color/black"
+          android:textSize="27dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/texta"
+          app:layout_constraintStart_toStartOf="@+id/texta"
+          app:layout_constraintTop_toBottomOf="@+id/texta"></TextView>
+
+      <Button
+          android:id="@+id/callbutton2"
+          android:layout_width="95dp"
+          android:layout_height="53dp"
+          android:layout_alignParentEnd="true"
+          android:layout_marginEnd="16dp"
+          android:backgroundTint="#2EA533"
+          android:text="CALL "
+          android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.407" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.cardview.widget.CardView>//ambulance
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:backgroundTint="#E5C8E8"
+      app:cardElevation="10dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="454dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textp"
+        app:layout_constraintTop_toBottomOf="@+id/textp">
+
+      <TextView
+          android:id="@+id/textw"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:text="Women Helpline"
+          android:textColor="@color/black"
+          android:textSize="25dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toTopOf="@+id/calltxt3"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.09"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_chainStyle="packed" />
+
+      <TextView
+          android:id="@+id/calltxt3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginBottom="6dp"
+          android:text="1091"
+          android:textColor="@color/black"
+          android:textSize="27dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/textw"
+          app:layout_constraintHorizontal_bias="0.311"
+          app:layout_constraintStart_toStartOf="@+id/textw"
+          app:layout_constraintTop_toBottomOf="@+id/textw"
+          app:layout_constraintVertical_bias="0.0"></TextView>
+
+      <Button
+          android:id="@+id/callbutton3"
+          android:layout_width="95dp"
+          android:layout_height="53dp"
+          android:layout_alignParentEnd="true"
+          android:layout_marginEnd="16dp"
+          android:backgroundTint="#2EA533"
+          android:text="CALL "
+          android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.407" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.cardview.widget.CardView>//women helpline
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:backgroundTint="#E5C8E8"
+      app:cardElevation="10dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="554dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="@+id/textp"
+        app:layout_constraintTop_toBottomOf="@+id/textp">
+
+      <TextView
+          android:id="@+id/textd"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:text="Domestic Abuse"
+          android:textColor="@color/black"
+          android:textSize="25dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toTopOf="@+id/calltxt4"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.09"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_chainStyle="packed" />
+
+      <TextView
+          android:id="@+id/calltxt4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginBottom="6dp"
+          android:text="181"
+          android:textColor="@color/black"
+          android:textSize="27dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/textd"
+          app:layout_constraintHorizontal_bias="0.343"
+          app:layout_constraintStart_toStartOf="@+id/textd"
+          app:layout_constraintTop_toBottomOf="@+id/textd"></TextView>
+
+      <Button
+          android:id="@+id/callbutton4"
+          android:layout_width="95dp"
+          android:layout_height="53dp"
+          android:layout_alignParentEnd="true"
+          android:layout_marginEnd="16dp"
+          android:backgroundTint="#2EA533"
+          android:text="CALL "
+          android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.407" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.cardview.widget.CardView>//domestic
+
+
+</RelativeLayout>

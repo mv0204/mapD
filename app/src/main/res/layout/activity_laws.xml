@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E9DFEA"
+    android:layout_height="match_parent"
+    tools:context=".Laws">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="90dp"
+           android:text="CRIMINAL LAWS"
+           android:layout_marginLeft="15dp"
+           android:background="#CFBDD1"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:textSize="50dp"></TextView>
+       <pl.droidsonroids.gif.GifImageView
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:layout_marginTop="50dp"
+           android:src="@drawable/criminal"></pl.droidsonroids.gif.GifImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Rape and Sexual Assault"
+           android:textSize="34dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="30dp"
+           android:layout_marginLeft="10dp"
+           ></TextView>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="280dp"
+           android:src="@drawable/rapee"
+           ></ImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 375, 376, 376-A-D Indian Penal Code, 1860"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Domestic Violence"
+           android:textSize="40dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="10dp"
+           ></TextView>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="280dp"
+           android:src="@drawable/domestic"
+           ></ImageView>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="# Protection of women from Domestic Violence Act, 2005"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Acid Attack"
+           android:textSize="40dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="280dp"
+           android:src="@drawable/acid"
+           ></ImageView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="10dp"
+           android:text="#  Section 326-A and 326-B, Indian Penal Code, 1860 (amendment 2013) "
+           android:textSize="24dp"
+           android:textStyle="bold"></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 357-B and 357-C, Code of Criminal Procedure, 1973 "
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="  Dowry Death"
+           android:textSize="34dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="6dp"
+           ></TextView>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="280dp"
+           android:src="@drawable/dowry"
+           ></ImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Sections 304-B, Indian Penal Code, 1860 "
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 2, Dowry Prohibition Act, 1961"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 174, Code of Criminal Procedure, 1973  "
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 113-A, Evidence act, 1872"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=" Obscenity"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="15dp"
+           ></TextView>
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="280dp"
+           android:src="@drawable/obse"
+           ></ImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Sections 292, 293 and 294, Indian Penal Code, 1860"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Indecent representation of women (prohibition) Act, 1987"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 67 of the Information Technology Act"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=" Outraging the modesty of a women"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="15dp"
+           ></TextView>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="280dp"
+           android:src="@drawable/mods"
+           ></ImageView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Sections 354, 354A, 354B, 354C, 354D, Indian Penal Code, 1860"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 509 Indian Penal Code, 1860"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=" Cruelty"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="15dp"
+           ></TextView>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="280dp"
+           android:src="@drawable/cruelty"
+           ></ImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#  Section 498 - A Indian Penal Code, 1860"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           ></TextView>
+
+
+
+
+   </LinearLayout>
+
+
+</ScrollView>

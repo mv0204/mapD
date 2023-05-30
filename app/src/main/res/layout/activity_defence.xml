@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E9DFEA"
+    android:layout_height="match_parent"
+    tools:context=".Defence">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="50sp"
+        android:textColor="#10328F"
+    android:padding="10dp"
+        android:layout_marginStart="24dp"
+    android:textStyle="bold"
+    android:text="SELF DEFENCE">
+
+    </TextView>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:text="#  Just because you’re a woman, you shouldn’t be asked to travel with a companion!"
+            android:textColor="#10328F"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="#  The primary importance of self-defence is for women to be able to protect themselves against anything that’s unacceptable in terms of social conduct"
+            android:textColor="#10328F"
+            android:layout_marginTop="12dp"
+            android:textSize="28dp"
+            android:textStyle="bold"></TextView>
+
+
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="400dp"
+            android:src="@drawable/def1"
+            android:layout_marginTop="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GROIN ATTACK"
+            android:paddingTop="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="408dp"
+            android:layout_height="400dp"
+            android:src="@drawable/def2"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When grabbed from the front:"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" #  move your hands forward and make a fist in front of your pelvis After that, hit the attacker's nose with your forehead"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"></TextView>
+
+<ImageView
+    android:layout_width="410dp"
+    android:layout_height="400dp"
+    android:src="@drawable/def3"
+    android:layout_marginTop="10dp"></ImageView>
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="400dp"
+            android:src="@drawable/def4"
+            android:layout_marginTop="10dp"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When grabbed from behind:"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quickly bend back and try to hit the attacker with the back of your head. If you can't do it, make the attacker put one of his legs forward
+
+
+Now quickly bend down, grab his leg and get up pulling it with you. Now the attacker will lose balance "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="12dp"></TextView>
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="400dp"
+            android:src="@drawable/def5"
+            android:layout_marginTop="10dp"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Grabbed from the side:"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="An elbow hit is one of the most dangerous hits in all kinds of martial arts. This is exactly the hit you need if you are approached from the side"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"></TextView>
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="400dp"
+            android:src="@drawable/def6"
+            android:layout_marginTop="10dp"></ImageView>
+
+
+    </LinearLayout>
+</ScrollView>

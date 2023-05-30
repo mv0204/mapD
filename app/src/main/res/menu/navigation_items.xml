@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/optHome"
+    android:title="Home"
+    android:icon="@drawable/home"></item>
+<item
+    android:id="@+id/optTips"
+    android:title="Safety Tips"
+    android:icon="@drawable/security"></item>
+
+   <item
+       android:id="@+id/opthelp"
+    android:title="Help"
+       android:icon="@drawable/help"></item>
+
+  <item
+      android:id="@+id/oplaw"
+    android:title="Laws"
+      android:icon="@drawable/ic_person"></item>
+
+    <item
+        android:id="@+id/opUpdate"
+        android:title="Update"
+        android:icon="@drawable/update"></item>
+
+
+</menu>

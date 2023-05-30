@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert"
+        android:title="">
+        <menu>
+    <item
+        android:id="@+id/item_exit"
+        android:icon="@drawable/ic_exit"
+        android:title="  Exit"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/item_aboutUs"
+        android:icon="@drawable/ic_about_us"
+        android:title="  Developers"
+        app:showAsAction="never"></item>
+        </menu>
+    </item>
+</menu>
